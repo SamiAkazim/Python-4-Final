@@ -56,10 +56,11 @@ def voeg_woorden_toe(woordenlijst, lijst_naam_keuze):
 
 
 def main():
+    print(("| {:" + str(SCHERMBREEDTE - 4)+ "} |").format(regel))
     filename = ''
     doorgaan = True
     while doorgaan == True:
-
+        print_regel("heyyy")
         print_menu("hallo")
         menu_keuze = input(": ")
         if menu_keuze == STANDAARD_LIJST:
